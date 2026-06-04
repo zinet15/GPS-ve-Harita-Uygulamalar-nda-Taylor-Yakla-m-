@@ -60,7 +60,7 @@ Projede matematiksel modelleme ve görselleştirme için şu kütüphaneler kull
 
 Projemizde iyonosferik davranışları simüle etmek için üç farklı fonksiyon analiz edilmiştir. Kullanılan Python algoritmaları aşağıdadır:
 
-### 1. Periyodik Dalgalanmalar: `cos(x)` Analizi
+### 1. `cos(x)` Analizi
 ```python
 import sympy as sp
 import numpy as np
@@ -92,7 +92,7 @@ plt.title("cos(x) Taylor Yaklaşımı")
 plt.show()
 ```
 
-### 2. Atmosferik Trend Sapmaları: Polinom Analizi
+### 2. Polinom Analizi
 ```python
 import sympy as sp
 import numpy as np
@@ -124,7 +124,7 @@ plt.title("Polinom Taylor Analizi")
 plt.show()
 ```
 
-### 3. Sinyal Sönümlenmesi: Üstel `e^x` Analizi
+### 3. Üstel Fonksiyon `e^x` 
 ```python
 import sympy as sp
 import numpy as np
