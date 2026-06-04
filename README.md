@@ -60,7 +60,7 @@ Projede matematiksel modelleme ve görselleştirme için şu kütüphaneler kull
 
 Projemizde iyonosferik davranışları simüle etmek için üç farklı fonksiyon analiz edilmiştir. Kullanılan Python algoritmaları aşağıdadır:
 
-### 1. `cos(x)` Analizi
+### 1. `cos(x)` Fonksiyonu
 ```python
 import sympy as sp
 import numpy as np
@@ -92,7 +92,7 @@ plt.title("cos(x) Taylor Yaklaşımı")
 plt.show()
 ```
 
-### 2. Polinom Analizi
+### 2. Polinom Fonksiyonu
 ```python
 import sympy as sp
 import numpy as np
